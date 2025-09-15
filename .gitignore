@@ -1,0 +1,32 @@
+# ----- R -----
+.Rhistory
+.Rproj.user/
+.Ruserdata
+.RData
+
+# ----- Quarto / R Markdown -----
+# caches & sites générés : on régénère depuis les sources .qmd
+/_site/
+*/_site/
+*/_freeze/
+.quarto/
+
+# ----- renv (environnement R par projet) -----
+renv/library/
+renv/staging/
+
+# ----- VS Code / macOS -----
+.vscode/*.log
+.vscode/*.cache
+.DS_Store
+
+# ----- Données locales (expliquer dans data/README.md) -----
+data/
+!data/README.md
+
+# ----- Résultats régénérables -----
+resultats/
+!resultats/README.md
+
+# ----- Divers -----
+*.tmp
